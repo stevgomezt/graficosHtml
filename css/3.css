@@ -1,0 +1,15 @@
+#chart {
+    margin-top: 10%;
+    display: block;
+}
+
+.chart-container {
+    width: 50%;
+    margin: 0 auto;
+    &::before {
+        content: "";
+        background: blue;
+        border-left: 2px solid red;
+        display: block;
+    }
+}

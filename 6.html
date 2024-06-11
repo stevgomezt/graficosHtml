@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/6.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highcharts/9.3.1/highcharts.js"></script>
+</head>
+
+<body>
+    <figure class="highcharts-figure">
+        <h3>Sector Diversification</h3>
+        <h6>(% of portfolio securities as of 31 October 2021)</h6>
+        <div id="container"></div>
+        <div id="sector-legend">
+            <div class="series-0">
+                <i class="fas fa-square-full fa-lg"></i>
+                Large Cap Value
+            </div>
+            <div class="series-1">
+                <i class="fas fa-square-full fa-lg"></i>
+                <a class="series-link" data-series="1" href="#">Russell 1000</a>
+            </div>
+            <div class="series-2">
+                <i class="far fa-square-full fa-lg"></i>
+                <a class="series-link" data-series="2" href="#">Russell 2000 Value</a>
+            </div>
+        </div>
+    </figure>
+
+    <script src="js/6.js"></script>
+</body>
+
+</html>
